@@ -1,0 +1,53 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+div {
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#button {
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#button:hover{
+    background-color: #45a049;
+}
+#message{
+    display: none;
+            position: fixed;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            background: #f1f1f1;
+            padding: 10px;
+            border: 1px solid #ccc;
+            z-index: 1;
+            font-family: 'Roboto', sans-serif; /* Roboto fontunu kullan */
+            font-size: 16px; /* Font büyüklüğünü ayarla */
+            color: #333;
+}

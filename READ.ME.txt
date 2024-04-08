@@ -1,0 +1,33 @@
+
+For run this project:
+
+You need:
+
+1)A code editor (ide) and a local server.
+2)Internet connection. (Datas stored on Firebase database.)
+
+otherwise, project won't run correctly.
+
+
+
+
+I used VScode and i will explain the steps for run on it.
+
+
+1)Install Vscode
+2)in vscode, in extensions part,install extension named "Live Server".
+3)Load the project to vscode.
+4)go login.html in vscode and run it on live server.
+
+
+if u don't login, you won't be able to plan to watch and completed tabs.
+
+
+
+username: user1
+password: user1
+
+another user
+
+username: user2
+password: user2
